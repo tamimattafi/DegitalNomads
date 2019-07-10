@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+        android:overScrollMode="always"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.tamimattafi.degitalnomads.view.custom.BaseToolbar
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize">
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:background="@color/colorWhite"
+        android:layout_height="?actionBarSize">
+    <TextView
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@string/digital_nomads"
+            android:id="@+id/title"
+            android:textSize="18sp"
+            android:textColor="@color/colorGrayDark"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <ImageButton
+            android:contentDescription="@string/refresh"
+            android:id="@+id/refresh"
+            android:src="@drawable/ic_refresh"
+            android:tint="@color/colorGrayDark"
+            android:background="?selectableItemBackgroundBorderless"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+</RelativeLayout>
+        </com.tamimattafi.degitalnomads.view.custom.BaseToolbar>
+</com.google.android.material.appbar.AppBarLayout>

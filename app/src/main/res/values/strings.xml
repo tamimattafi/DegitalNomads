@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Digital Nomads</string>
+    <string name="empty_image">empty_image</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="no_data">No Data to show</string>
+    <string name="no_connection">No Connection</string>
+    <string name="your_device_not_connected">Your device is not connected to the internet, please check your
+        connectivity and try again
+    </string>
+    <string name="refresh">Refresh</string>
+    <string name="no_data_was_loaded">No data was loaded. If you think there was a mistake, check your connectivity and
+        refresh the page
+    </string>
+    <string name="post_image">post image</string>
+    <string name="error_loading_data">Error Loading Data</string>
+    <string name="something_went_wrong_check_internet">Something went wrong, please check your internet connection and
+        try again
+    </string>
+    <string name="try_again">Try Again</string>
+    <string name="back">back</string>
+    <string name="digital_nomads">Digital Nomads</string>
+</resources>
